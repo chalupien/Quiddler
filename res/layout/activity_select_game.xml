@@ -1,0 +1,85 @@
+
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/LinearLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical" >
+
+	<ImageView
+		android:id="@+id/imview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="-20dp"
+		android:contentDescription="Game Logo" />
+	
+
+    
+		
+	    <TextView
+    	android:id="@+id/user_label"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text=""
+    	android:textAppearance="?android:attr/textAppearanceSmall" />
+	    
+	      <TextView
+    	android:id="@+id/game_label"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textAppearance="?android:attr/textAppearanceSmall" />
+	    
+	    
+	      <TextView
+    	android:id="@+id/game_label2"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textAppearance="?android:attr/textAppearanceSmall"
+    	android:text="Games available to join\n"
+    	 />
+	      
+	    
+	   
+	   <ListView
+	 	android:id="@+id/listopengames"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	 	android:drawSelectorOnTop="false" />
+	 
+	   
+	      
+	     <TextView
+    	android:id="@+id/game_label3"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="\n\nResume an existing game\n"
+    	android:textAppearance="?android:attr/textAppearanceSmall" />
+	     
+	     
+	   
+	       <ListView
+	 	android:id="@+id/listmygames"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	 	android:drawSelectorOnTop="false" />
+	    
+	   
+	    
+    
+    
+	   
+	<Button
+		android:id="@+id/NewGameButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Game" />
+  
+	
+	
+	
+</LinearLayout>
+

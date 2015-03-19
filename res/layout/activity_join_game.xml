@@ -1,0 +1,289 @@
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/LinearLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical" >
+	<ImageView
+		android:id="@+id/imview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="-20dp"
+		android:contentDescription="Game Logo" />
+	
+	<TableLayout
+		android:id="@+id/TableLayout012"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+	     	     <TableRow
+	     	     	android:id="@+id/tableRow14"
+	     	     	android:layout_width="fill_parent"
+	     	     	android:layout_height="wrap_content"
+	     	     	android:gravity="right" >
+	
+	<TextView
+			android:id="@+id/playerScore"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="11"
+			android:gravity="left"
+			android:maxLines="1"
+			android:textSize="9pt"
+			android:textStyle="bold"
+			android:typeface="serif" />
+
+	
+		<TextView
+			android:id="@+id/gameRoundtxt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="14"
+			android:gravity="center"
+			android:maxLines="1"
+			android:textSize="20pt"
+			android:textStyle="bold"
+			android:typeface="serif" />
+		
+		</TableRow>
+		</TableLayout>
+		
+	
+	 <TextView
+    	android:id="@+id/user_label"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text=""
+    	android:textAppearance="?android:attr/textAppearanceSmall" />
+	 
+	 <TableLayout
+		android:id="@+id/TableLayout02"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+	     	     <TableRow
+	     	     	android:id="@+id/tableRow4"
+	     	     	android:layout_width="fill_parent"
+	     	     	android:layout_height="wrap_content"
+	     	     	android:gravity="right" >
+	     	<ImageView
+				android:id="@+id/CardToGetShown"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+	     	
+	     	
+			<ImageView
+				android:id="@+id/CardToGetBlind"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+			
+	     </TableRow>
+	     
+	     	     </TableLayout>
+	    
+	     	     
+	  <TableLayout
+		android:id="@+id/TableLayout01"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+	     
+	     
+	     		<TableRow
+	     			android:id="@+id/tableRow1"
+	     			android:layout_width="match_parent"
+	     			android:layout_height="wrap_content"
+	     			android:layout_gravity="center" >
+			<ImageView
+				android:id="@+id/ImageView1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+			<ImageView
+				android:id="@+id/ImageView2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+			<ImageView
+				android:id="@+id/ImageView3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+			<ImageView
+				android:id="@+id/ImageView4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+			<ImageView
+				android:id="@+id/ImageView5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+			
+			
+			
+			
+			</TableRow>
+			
+	     	<TableRow
+	     			android:id="@+id/tableRow11"
+	     			android:layout_width="match_parent"
+	     			android:layout_height="wrap_content"
+	     			android:layout_gravity="center" >
+			
+	     		<ImageView
+				android:id="@+id/ImageView6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+	     		
+			<ImageView
+				android:id="@+id/ImageView7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+			<ImageView
+				android:id="@+id/ImageView8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+			<ImageView
+				android:id="@+id/ImageView9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+			<ImageView
+				android:id="@+id/ImageView10"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+			
+			
+			
+		</TableRow>
+		
+	     	<TableRow
+	     			android:id="@+id/tableRow111"
+	     			android:layout_width="match_parent"
+	     			android:layout_height="wrap_content"
+	     			android:layout_gravity="center" >
+			
+	     		<ImageView
+				android:id="@+id/ImageView11"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@+drawable/ic_action_search" />
+		
+	     	</TableRow>
+			
+		</TableLayout>
+		
+	  
+		<TableLayout
+			android:id="@+id/TableLayout02"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+		
+		<TableRow
+			android:id="@+id/tableRow3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >>
+			
+			<Button
+		android:id="@+id/ButtonLetterSpace"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="ButtonLetterSpace"
+		android:visibility="gone"
+		android:text="Space" />
+			
+			<Button
+		android:id="@+id/ButtonLetterDelete"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="buttonLetterDelete"
+		android:visibility="gone"
+		android:text="Delete" />
+			
+			
+			
+		</TableRow>
+		
+	</TableLayout>
+		 <TextView
+		 	android:id="@+id/wordsToPlay"
+		 	android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:ems="14"
+			android:gravity="center"
+			android:maxLines="1"
+			android:textSize="20pt"
+			android:textStyle="bold"
+			android:typeface="serif" />
+		 
+		 <TextView
+		 	android:id="@+id/wordsLeftToPlay"
+		 	android:layout_width="match_parent"
+		 	android:layout_height="wrap_content"
+		 	android:visibility="gone"
+		 	android:maxLines="1"/>
+		 
+		 <TextView
+		 	android:id="@+id/LettersInSpaces"
+		 	android:layout_width="match_parent"
+		 	android:layout_height="wrap_content"
+			android:visibility="gone"
+		 	android:maxLines="1"/>
+		 
+		 <TextView
+		 	android:id="@+id/usedExtra"
+		 	android:layout_width="match_parent"
+		 	android:layout_height="wrap_content"
+			android:visibility="gone"
+		 	android:maxLines="1"/>
+		 
+		 <TextView
+		 	android:id="@+id/usedExtraWhat"
+		 	android:layout_width="match_parent"
+		 	android:layout_height="wrap_content"
+			android:visibility="gone"
+		 	android:maxLines="1"/>
+		 
+	 <Button
+		android:id="@+id/PlayWords"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="playWords"
+		android:text="Play Words" />
+	  <TextView
+    	android:id="@+id/playWordsString"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"
+    	android:text="Played Words..." />
+	
+	
+	<TextView
+    	android:id="@+id/errorString"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"
+    	android:text="" />
+	
+	<TextView
+    	android:id="@+id/stringOfCardsDealtToPlayer"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"
+    	android:text="" />
+	
+	
+	
+	
+	
+</LinearLayout>
+</ScrollView>

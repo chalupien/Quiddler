@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/LinearLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical" >
+	<ImageView
+		android:id="@+id/imview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="-20dp"
+		android:contentDescription="Game Logo" />
+	
+	<TextView
+    	android:id="@+id/mainString"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text=""
+    	/>
+	
+
+			
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Email"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		<EditText
+			android:id="@+id/editText1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="31dp"
+			android:ems="10"
+			android:inputType="textEmailAddress" />
+			
+
+			<TextView
+				android:id="@+id/TextView01"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Screen Name"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+			<EditText
+				android:id="@+id/editText2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="31dp"
+				android:ems="10"
+				android:inputType="textEmailAddress" />
+
+	
+	<Button
+		android:id="@+id/buttonFindGames"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="searchForGame"
+		android:text="Find Games" />
+	<TextView
+		android:id="@+id/playerStatus"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<resources>
+	<string name="app_name">Quiddler</string>
+	<string name="menu_settings">Instructions</string>
+	<string name="menu_quit">Quit</string>
+	<string name="title_activity_main">Quiddler</string>
+	<string name="game_instructions">
+		
+&lt;h2>Instructions&lt;/h2>&lt;p>&lt;/p>&lt;b>AGES:&lt;/b> 8 to adult&lt;br>&lt;/br>
+
+&lt;b>PLAYERS:&lt;/b> 1 to 8&lt;br>&lt;/br>
+
+&lt;b>OBJECT:&lt;/b> To obtain the highest number of points by combining the cards in your hand into words. The words must use two or more cards.
+&lt;br>&lt;/br>
+&lt;b>THE DECK:&lt;/b> The game consists of a 118 card deck. It contains cards from A to Z with special double-letter cards -- QU, IN, ER, TH and CL. Each card has a point value.
+&lt;br>&lt;/br>
+&lt;b>THE DEAL:&lt;/b> Before each hand is dealt, the cards are shuffled. In the first hand of the game, 3 cards are dealt one at a time in clockwise rotation to the players. In each following hand, one additional card is dealt to each player; thus, the second hand has four cards; the third hand, five cards, etc. In the last hand of the game, each player is dealt ten cards. The complete game has eight hands. After each deal, the remaining cards are placed in the center as a stockpile, and the top card is turned over to start the discard pile.
+&lt;br>&lt;/br>
+&lt;b>THE PLAY:&lt;/b> The player to the dealer\'s left goes first. Play continues clockwise. Each turn starts with either drawing a card from the stockpile or picking up the top discard. The turn is completed by discarding one card. A player can only lay cards on the table when going out or, in turn, after another player has gone out. When a player is able to go out (see below), the remaining players each have one last turn. Each remaining player, in turn, will either draw from the deck or pick up the top discard. The player will then lay down his/her words and discard one card. He/she will count the points on the cards used to build words. Points on the unused cards count as points against the player\'s total. A player cannot play on another player\'s words. When a player is able to go out (see below), the remaining players each have one last turn. Each remaining player, in turn, will either draw from the deck or pick up the top discard. The player will then lay down his/her words, and discard one card. He/she will count the points on the cards used to build words. Points on the unused cards as points against the player\'s total. A player cannot play on another player\'s words. The scorekeeper records the points and keeps a running tally. The deal is passed to the player on the dealer\'s left and the next hand is dealt, continuing until the eighth hand when there are ten cards in the hand. High score wins.
+&lt;br>&lt;/br>
+&lt;b>GOING OUT:&lt;/b> A player can only go out during his/her turn. To go out, a player must be able to arrange all the cards in his/her hand into words of two or more cards with one card remaining. He/she lays the cards down and discards one last card to go out.
+&lt;br>&lt;/br>
+&lt;b>CHALLENGES:&lt;/b> If any player does not believe that a word played is a bonafide word, then he/she may challenge the word. If the word is in the agreed upon dictionary and is an allowable word (see below), then the challenger must subtract the number of points in the word from his/her score. If the word is not in the dictionary, then the player must subtract the number of points in the word against his/her score. He/she does not get to rearrange the cards into other words.
+&lt;br>&lt;/br>
+&lt;b>ALLOWABLE WORDS:&lt;/b> A dictionary should be chosen before the game starts. No proper nouns, prefixes, suffixes, abbreviated, or hyphenated words can be used. All words must use at least two cards.
+&lt;br>&lt;/br>
+&lt;b>SCORING:&lt;/b>  Each card is worth the value shown. In each hand, cards that are combined into allowable words count for the player; unused cards count against the player. In addition, there are two bonuses. The player with the most words in each round receives 10 additional points, and the player with the longest word receives 10 additional points. Both bonuses can go to the same player. When two or more players tie for a bonus, no bonus is given. Note: The bonus for the longest word goes to the word that uses the most letters - not the most cards.  . In addition, there are two bonuses. The player with the most words in each round receives 10 additional points, and the player with the longest word receives 10 additional points. Both bonuses can go to the same player. When two or more players tie for a bonus, no bonus is given. Note: The bonus for the goes to the word that uses the most letters - not the most cards.
+&lt;br>&lt;/br>
+&lt;b>SOLITAIRE:&lt;/b> Deal eight stacks of five cards face down. Then deal one card face up on each stack. Make a word from the eight cards showing. Remove the word. Then turn over the card on top of the stacks which have had cards removed. When all of the cards in a stack have been used, move a card from the top of any remaining stack to bring the number of stacks back to eight. The player wins if all 48 of the cards dealt are used in words. Allowable words are as stated above.
+&lt;br>&lt;/br>
+&lt;b>LETTER FREQUENCY:&lt;/b> The number of times each letter is repeated in the deck is.:A - 10, B - 2, C - 2, D - 4, E - 12, F - 2, G - 4, H - 2, I - 8, J - 2, K - 2, L - 4, M - 2, N - 6, O - 8, P - 2, Q - 2, R - 6, S - 4, T - 6, U - 6, V - 2, W - 2, X - 2, Y - 4, Z - 2, QU - 2, IN - 2, ER - 2, CL - 2, TH - 2.
+&lt;br>&lt;/br>
+&lt;b>THE DECORATED LETTERS:&lt;/b> The letters shown in the center of the cards were inspired by Celtic manuscripts from 500 - 800 AD such as the Book of Kells , the Book of Durrow , and others. We hope you will enjoy the great calligraphy.
+&lt;br>&lt;/br>
+Android Game Created by Nick Lupien Copyright\© 2012&lt;br>&lt;/br>
+Copyright\© 1998 M.J. Falco &amp; R.E. Falco. All rights reserved.&lt;br>&lt;/br></string>
+</resources>
